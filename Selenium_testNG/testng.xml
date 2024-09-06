@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="batchTesting.SignUpTest"/>
+      <class name="parallelTesting.Params"/>
+      <class name="parameterization.dataProvider.DataProviderDemo"/>
+      <class name="pageObjectModel.LoginTest"/>
+      <class name="pageObjectModel.PageFactoryTC"/>
+      <class name="listeners.A"/>
+      <class name="batchTesting.PaymentReturns"/>
+      <class name="batchTesting.PaymentsTest"/>
+      <class name="batchTesting.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

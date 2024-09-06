@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" thread-count="2" parallel = "tests"> <!-- by default it is 1 [so mention 2-5]  not beyond 5 coz performance slow memory allocation more from java-->
+<!-- for parallel testing must mention thread-count. If we remove parallel it executes in sequential order -->
+<test name="Edge Test">
+<parameter name="browser" value="edge"/>
+<classes>
+<class name ="parallelTesting.Params"/>
+</classes>
+</test>
+<!-- Sequential execution -->
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name ="parallelTesting.Params"/>
+</classes>
+</test>
+</suite>
