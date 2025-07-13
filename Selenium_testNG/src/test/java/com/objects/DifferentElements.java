@@ -7,3 +7,4 @@ public class DifferentElements {
 		public static By SearchIcon = By.xpath("//li[contains(@class, 'js-desktop-search')]");
 		// added by 
 }
+// added
